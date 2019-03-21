@@ -41,7 +41,7 @@
   height: 200px;
   width: 250px;
   background-color: #fff;
-  margin: 20rpx 0 0 75rpx;
+  margin: 20rpx 0 0 85rpx;
   border-radius: 25px;
   box-shadow: 0 5px 5px 0 #D0D0D0;
 }

@@ -5,7 +5,7 @@
       <block class='info-items'>
         <image src="{{faceUrl}}" class="head-portrait"></image>
       </block>
-      <label class='nickname info-items'>{{nickname}}</label>
+      <label class='nickname info-items'>{{username}}</label>
     </view>
     <!-- <block>
       <image class="head-portrait" bindtap='changeFace'></image>

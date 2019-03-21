@@ -5,5 +5,11 @@ Page({
   data: {
   },
   //事件处理函数
-  
+  scanQRcode(e) {
+    wx.scanCode({
+      success(res) {
+        
+      }
+    })
+  }
 })

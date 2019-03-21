@@ -40,6 +40,6 @@ App({
     school: "ECNU",
     department: "SCSSE",
     phone_num: "13111013231",
-    email: "scsse_hhw2016@126.com",
+    email: "501315555@qq.com",
   }
 })

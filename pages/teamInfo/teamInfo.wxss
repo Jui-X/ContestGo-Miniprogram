@@ -21,7 +21,6 @@
   padding-top: 10rpx;
 }
 .team-section {
-  margin-top: 20rpx;
   background-color: whitesmoke;
 }
 .team-title {

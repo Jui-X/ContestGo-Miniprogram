@@ -1,0 +1,19 @@
+<view class="submit-page">
+  <view class="header-font header">
+    提交材料
+  </view>
+
+  <view class="website-section">
+    <view class="text-font website">http://192.168.1.1</view>
+    <view class="annotation-font">
+      请电脑浏览器输入以上链接，并扫描二维码上传正式报名所需附件。
+    </view>
+    <view class="scanQRcode">
+    <button class="scan-btn" bindtap="scanQRcode">
+      <image src="../resource/images/icon_scan.png" style="height:50rpx; width:50rpx;">
+      </image>
+      <view>扫码上传</view>
+    </button>
+  </view>
+  </view>
+</view>

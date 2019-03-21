@@ -7,7 +7,7 @@
     </button>
   </view>
 
-  <image src="../resource/images/yyh.jpg" style="width:100%; height:200px;"></image>
+  <image src="../resource/images/brain.jpg" style="width:100%; height:200px;"></image>
 
   <view class="team-section"> 
     <view class="team-title">
@@ -16,7 +16,7 @@
     </view>
     <view class="team-title">
       <view class="title-font">队长：</view>
-      <view class="text-font">二狗子</view>
+      <view class="text-font">{{}}</view>
     </view>
     <view class="team-info">
       <view class="title-font">队伍简介</view>

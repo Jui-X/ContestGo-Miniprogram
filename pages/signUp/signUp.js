@@ -31,8 +31,10 @@ Page({
       department: department;
       phone_num: phone_num;
     }
-    wx.navigateTo({
-      url: '../signUp/signUp',
+    wx.scanCode({
+      success(res) {
+        console.log(res)
+      }
     })
   }
 })

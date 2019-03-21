@@ -1,15 +1,15 @@
 {
   "pages":[
+    "pages/index/index",
     "pages/contest/contest",
     "pages/team/team",
-    "pages/user/user",
-    "pages/userInfo/userInfo",
-    "pages/index/index",
     "pages/signUp/signUp",
-    "pages/submit/submit",
+    "pages/QRcode/QRcode",
     "pages/teamInfo/teamInfo",
     "pages/teamRecruit/teamRecruit",
     "pages/resume/resume",
+    "pages/user/user",
+    "pages/userInfo/userInfo",
     "pages/login/login"
   ],
   "window":{

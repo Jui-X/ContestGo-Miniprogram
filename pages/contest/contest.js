@@ -34,11 +34,19 @@ Page({
       title: '是否发送附件至您邮箱？',
       content: '是否发送附件至邮箱:' + this.data.email + '？',
       success: res => {
+        wx.request({
+          url: 'http://127.0.0.1:8081/sendMail',
+          method: "POST",
+          data: {
+            contest_name: this.data.contest_name,
+            email_address: this.data.email
+          }
+        }),
         wx.showToast({
           title: '附件已成功发送!',
           icon: 'success',
           image: '',
-          duration: 2000,
+          duration: 5000,
           mask: true,
           success: function(res) {},
           fail: function(res) {},
