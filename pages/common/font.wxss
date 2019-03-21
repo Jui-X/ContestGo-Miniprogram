@@ -1,0 +1,24 @@
+.header-font {
+  color: #333333; 
+  font-size: 40rpx; 
+  text-align: center; 
+  font-weight: bolder;
+}
+.title-font {
+  color: #888888; 
+  font-size: 32rpx; 
+  text-align: center; 
+}
+.text-font {
+  color: #333333; 
+  font-size: 32rpx;
+}
+.annotation-font {
+  color: #AAAAAA; 
+  font-size: 30rpx; 
+}
+.highlight-font {
+  color: #333333; 
+  font-weight: bolder;
+  font-size: 30rpx;
+}

@@ -1,0 +1,93 @@
+/**index.wxss**/
+@import "../common/search.wxss";
+
+.search-bar {
+  background-color: #E1F9FD;
+  padding: 0 20px 10px 20px;
+}
+.tab {
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 10rpx 0;
+  font-size: 13px;
+}
+.topTabSwiper {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.topTabSwiper:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.tabBorder {
+  border-bottom: 1px solid #E1F9FD;
+}
+.swiper {
+  width: 100%;
+}
+.swiper-section {
+  text-align: center;
+  height: 100%;
+  /* background-image: url(); */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+}
+.swiper-item {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 250px;
+  background-color: #fff;
+  margin: 20rpx 0 0 75rpx;
+  border-radius: 25px;
+  box-shadow: 0 5px 5px 0 #D0D0D0;
+}
+.contest-title {
+  margin-top: 20rpx;
+  color: #888888;
+  font-size: 30rpx;
+}
+.flex-wrp {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.contest-section {
+  background-color: whitesmoke;
+  height: 100%;
+}
+.contest-category {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 15rpx;
+  padding-bottom: 15rpx;
+  background-color: #E1F9FD;
+}
+.contest-header {
+  width: 200rpx;
+  height: 50rpx;
+  background-color:  #fff;
+  font-size: 32rpx;
+  border-radius: 10px;
+  text-align: center;
+  color: #4169E1;
+  box-shadow: 0 5px 5px 0 #D0D0D0;
+}
+.contest-info {
+  display: flex;
+  flex-direction: column;
+}
+.contest-item {
+  background-color: #fff;
+  color: #888888;
+  font-size: 30rpx;
+  margin-bottom: 20rpx;
+  padding: 15rpx 0;
+  border-bottom: 2rpx solid #ccc;
+}
+
+

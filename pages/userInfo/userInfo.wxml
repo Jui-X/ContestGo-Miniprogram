@@ -1,0 +1,31 @@
+<view>
+  <view class="update-info">
+    <button class="update-btn">
+      <image src="../resource/images/submit_info.png" style="height:50rpx; width:50rpx;">
+      </image>
+      <view>更新信息</view>
+    </button>
+  </view>
+
+  <view class='container'>
+    <view class="container-col">
+      <block class='info-items'>
+        <image src="{{faceUrl}}" class="head-portrait"></image>
+      </block>
+      <label class='nickname info-items'>{{nickname}}</label>
+    </view>
+    <!-- <block>
+      <image class="head-portrait" bindtap='changeFace'></image>
+    </block> -->
+  </view>
+
+  <view class="line"></view>
+
+  <view class="user-info">
+    <view class="user-item">姓名：<input type="text" value="{{username}}"></input></view>
+    <view class="user-item">学号：<input type="text" value="{{stu_id}}"></input></view>
+    <view class="user-item">学校：<input type="text" value="{{school}}"></input></view>
+    <view class="user-item">院系：<input type="text" value="{{department}}"></input></view>
+    <view class="user-item">手机号：<input type="text" value="{{phone_num}}"></input></view>
+  </view>
+</view>

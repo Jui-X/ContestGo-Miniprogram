@@ -1,0 +1,33 @@
+@import "../common/lib/weui.wxss";
+@import "../common/font.wxss";
+
+.signUp {
+  background-color: #E1F9FD;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 15rpx;
+}
+.signUp-btn {
+  background-color: #E1F9FD;
+  display: flex;
+  flex-direction: row;
+  font-size: 24rpx;
+  margin: 0;
+  padding-top: 10rpx;
+}
+.signUp-info {
+  display: flex;
+  flex-direction: column;
+  background-color: #E1F9FD;
+}
+.signUp-item {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  color: #888888;
+  font-size: 30rpx;
+  margin-top: 30rpx;
+  padding: 15rpx 25rpx;
+  border: 2rpx solid #ccc;
+}

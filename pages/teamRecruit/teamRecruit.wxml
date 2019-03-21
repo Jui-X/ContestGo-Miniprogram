@@ -1,0 +1,19 @@
+<view class="recruit-page">
+  <view class="recruit">
+    <button class="recruit_btn">
+      <image src="../resource/images/update_info.png" style="height:50rpx; width:50rpx;">
+      </image>
+      <view>发布信息</view>
+    </button>
+  </view>
+
+  <view class="team-info">
+    <view class="team-item">队伍ID：<input type="text" value="{{team_id}}"></input></view>
+    <view class="team-item">队伍名称：<input type="text" value="{{team_name}}"></input></view>
+    <view class="team-item">队长：<input type="text" value="{{captain}}"></input></view>
+    <view class="team-item">队伍简介：<input type="text" value="{{team_info}}"></input></view>
+    <view class="team-item">招募要求：<input type="text" value="{{recruit_requests}}"></input></view>
+    <view class="team-item">工作简介：<input type="text" value="{{workload}}"></input></view>
+    <view class="team-item">联系方式:<input type="text" value="{{phone_num}}"></input></view>
+  </view>
+</view>

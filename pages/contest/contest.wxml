@@ -1,0 +1,57 @@
+
+<view class="contest-page">
+  <view class="apply">
+    <button class="apply-btn" bindtap="signUp">
+      <image src="../resource/images/apply_btn.png" style="height:50rpx; width:50rpx;">
+      </image>
+      <view>一键报名</view>
+    </button>
+  </view>
+  
+  <image src="../resource/images/sc.jpg" style="width:100%; height:200px;"></image>
+
+  <view class="contest-section">
+    <view class="contest-title">
+      <view class="title-font">大赛名称：</view>
+      <view class="text-font">{{contest_name}}</view>
+    </view>
+    <view class="contest-info">
+      <view class="title-font">大赛详情</view>
+      <view class="text-font">以创促学，创赛成才，已经多年扎实实践，双创培育项目已成为我院工科特色得以展现和本科生迅速提升创新、创业能力的重要渠道，深受同学们的重视。</view>
+      <view class="text-font"></view>
+    </view>
+    <view class="contest-info">
+      <view class="title-font">申报内容</view>
+      <view class="text-font">本科生创新创业训练培育项目按照“兴趣驱动、自主实践、重在过程”的原则，鼓励学生开展创新、创业训练与实践，实施团队合作、产学研合作，项目分为以下三类：</view>
+      <view class="highlight-font"> 创新训练项目：面向我校本科生个人或团队，在导师指导下，自主完成创新性研究项目设计、研究条件准备、项目实施、研究报告撰写和成果（学术）交流等工作。此类项目也包含教育教学研习相关的项目。</view>
+      <view class="highlight-font">创业训练项目：面向我校本科生团队，在导师指导下，团队中每个学生在项目实施过程中扮演一个或多个具体的角色，进行编制商业计划书、开展可行性研究、模拟企业运行、参加企业实践、撰写创业报告等工作。</view>
+      <view class="highlight-font">创业实践项目：面向我校学生团队，在学校导师和企业导师共同指导下，采用前期创新训练项目（或创新性实验）的成果，提出一项具有市场前景的创新性产品或者服务，以此为基础开展创业实践活动。创业实践项目要按照有关法律法规和政策妥善处理各项事务。</view>
+    </view>
+    <view class="contest-info">
+      <view class="title-font">项目管理</view>
+      <view class="highlight-font">1、本科生创新创业训练培育项目采取“自愿申报、专家评审、择优资助”的原则，每年受理一次：9月份启动立项申报，10月份公示立项名单，次年3月中期检查，次年9月结题答辩。</view>
+        <view class="annotation-font">注意：中期检查后，教务处授权院系从通过中期检查的本科生创新创业训练培育项目中自主确定2019年“国家大学生创新创业训练计划项目”（简称“国创”）、“上海大学生创新创业训练计划项目”（简称“市创”）和“校级大学生创新创业训练计划项目”（简称“校创”）的入选名单。</view>
+      <view class="text-font">其中，“国创”、“市创”立项数由教务处根据院系历年立项数确定，并根据院系执行质量每年上下浮动，其余项目为“校创”项目。</view>
+      <view class="highlight-font">2、10月份学校公示立项名单后，拨付项目培育经费1500元/项（人员费形式，有特殊要求的院系除外）。中期检查后，依据“国创”、“市创”、“校创”项目认定情况，拨付剩余项目经费，中止的项目不拨付，且 “国创”和“市创”项目经费的使用须以教育部和上海市教委相关规定为执行标准。</view>
+      <view class="annotation-font">注意：“国创”和“市创”项目资助额度一般为8000~11000元/项；“校创”项目资助额度一般为3500~5500元/项。</view>
+    </view>
+    <view class="contest-info">
+      <view class="title-font">联系方式</view>
+      <view class="highlight-font">联系人：经雨珠；联系电话：54344786；</view>
+      <view class="highlight-font">邮箱：yzjing@sist.ecnu.edu.cn；</view>
+      <view class="text-font">联系地点：闵行校区行政楼220室。</view>
+    </view>
+    <view class="contest-info">
+      <view class="title-font">附件下载</view>
+      <view class="attachment">
+        <view class="text-font">附件：</view>
+          <button class="attachment-btn" bindtap="sendEmail">
+            <image src="../resource/images/icon_attachment.png" style="height:50rpx; width:50rpx;">
+            </image>
+            <view>附件下载</view>
+          </button></view>
+        <view>
+      </view>
+    </view>
+  </view>
+</view>

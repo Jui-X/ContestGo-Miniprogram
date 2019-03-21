@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/contest/contest",
+    "pages/team/team",
+    "pages/user/user",
+    "pages/userInfo/userInfo",
+    "pages/index/index",
+    "pages/signUp/signUp",
+    "pages/submit/submit",
+    "pages/teamInfo/teamInfo",
+    "pages/teamRecruit/teamRecruit",
+    "pages/resume/resume",
+    "pages/login/login"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#E1F9FD",
+    "navigationBarTitleText": "ContestGo",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#4169E1",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/resource/images/icon_index.png",
+        "selectedIconPath": "pages/resource/images/icon_index_selected.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/team/team",
+        "iconPath": "pages/resource/images/icon_team.png",
+        "selectedIconPath": "pages/resource/images/icon_team_selected.png",
+        "text": "组队"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "pages/resource/images/icon_userInfo.png",
+        "selectedIconPath": "pages/resource/images/icon_userInfo_selected.png",
+        "text": "个人中心"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+@import "../common/lib/weui.wxss";
+@import "../common/font.wxss";
+
+.team-page {
+  display: flex;
+  flex-direction: column;
+}
+.favor_team {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: #E1F9FD;
+  padding: 15rpx;
+}
+.favor_btn {
+  background-color: #E1F9FD;
+  display: flex;
+  flex-direction: row;
+  font-size: 24rpx;
+  margin: 0;
+  padding-top: 10rpx;
+}
+.team-section {
+  margin-top: 20rpx;
+  background-color: whitesmoke;
+}
+.team-title {
+  display: flex;
+  flex-direction: row;
+  margin: 20rpx 0;
+  padding: 15rpx 10rpx;
+  text-align: center;
+  background-color: #fff;
+  border-bottom: 2rpx solid #ccc;
+}
+.team-info {
+  background-color: #fff;
+  border-bottom: 2rpx solid #ccc;
+  margin: 20rpx 0;
+  padding: 10rpx 25rpx;
+}

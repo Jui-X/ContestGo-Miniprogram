@@ -1,0 +1,108 @@
+<!--index.wxml-->
+<view>
+  <view class="search-bar">
+    <view class="weui-search-bar__form">
+      <view class="weui-search-bar__box">
+        <input type="text" class="weui-search-bar__input" placeholder="搜索热门赛事" value="{{wxSearchData.value}}" bindinput="wxSearchInput" bindconfirm="wxSearchConfirm" />
+        <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+        <view class="weui-icon-clear" wx:if="{{wxSearchData.value.length > 0}}" bindtap="wxSearchClear">
+          <icon type="clear" size="14"></icon>
+        </view>
+      </view>
+    </view>
+    <view class="weui-search-bar__cancel-btn" bindtap="wxSearchConfirm">
+      <text wx:if="{{wxSearchData.value.length>0}}" data-key='search'>搜索</text>
+    </view>
+  </view>
+
+  <view class="topTabSwiper">
+    <view class='tab {{currentTab == 0 ? "tabBorder" : ""}}' data-current="0" bindtap="checkCurrentTab">科研类</view>
+    <view class='tab {{currentTab == 1 ? "tabBorder" : ""}}' data-current="1" bindtap="checkCurrentTab">体育类</view>
+  </view>
+
+  <swiper current="{{currentTab}}" class="swiper" style="height:500px;" duration="500" bindChange="changeTab">
+    <swiper-item>
+      <view class='swiper-section'>
+        <view class="page-section page-section-spacing swiper">
+          <swiper autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style="height: 225px; background-color: whitesmoke;" next-margin="25px;">
+            <swiper-item>
+              <view class="swiper-item" bindtap="navigateTo">
+                <image src="../resource/images/netplus.jpg" style="width:250px; height:150px;border-radius:25px 25px 0 0;" mode="scaleToFill"></image>
+                <view class="contest-title">计算机与软件学院为华东师大夺得互联网+大赛首金！</view>
+              </view>
+            </swiper-item>
+            <swiper-item>
+              <view class="swiper-item" bindtap="navigateTo">
+                <image src="../resource/images/sc.jpg" style="width:250px; height:150px;border-radius:25px 25px 0 0;" mode="scaleToFill"></image>
+                <view class="contest-title">计算机与软件学院双创中期答辩启动！</view>
+              </view>
+            </swiper-item>
+            <swiper-item>
+              <view class="swiper-item" bindtap="navigateTo">
+                <image src="../resource/images/daxia.jpg" style="width:250px; height:150px;border-radius:25px 25px 0 0;" mode="scaleToFill"></image>
+                <view class="contest-title">华东师范大学第二十七届大夏杯中期答辩启动！</view>
+              </view>
+            </swiper-item>
+          </swiper>
+
+          <view class="contest-section">
+            <view class="contest-category">
+              <view class="contest-header">比赛详情</view>
+            </view>
+
+            <view class="contest-info">
+              <view class="contest-item" bindtap="navigateTo">计算机与软件学院双创中期答辩启动！</view>
+              <view class="contest-item" bindtap="navigateTo">计算机与软件学院为华东师大夺得互联网+大赛首金！</view>
+              <view class="contest-item" bindtap="navigateTo">华东师范大学第二十七届大夏杯中期答辩启动！</view>
+              <view class="contest-item" bindtap="navigateTo">2019年挑战杯启动报名！</view>
+              <view class="contest-item" bindtap="navigateTo">2019年力扣杯-春季高校编程大赛启动报名!</view>
+              <view class="contest-item" bindtap="navigateTo">2019年华为软件精英挑战赛启动!</view>
+              <view class="contest-item" bindtap="navigateTo">2019年高校微信小程序开发大赛启动报名！!</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class='swiper-section'>
+        <view class="page-section page-section-spacing swiper">
+          <swiper autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style="height: 225px; background-color: whitesmoke;" next-margin="25px;">
+            <swiper-item>
+              <view class="swiper-item">
+                <image src="../resource/images/yyh.jpg" style="width:250px; height:150px;border-radius:25px 25px 0 0;" mode="scaleToFill"></image>
+                <view class="contest-title">计算机科学与软件工程学院第四届院运会成功举办！</view>
+              </view>
+            </swiper-item>
+            <swiper-item>
+              <view class="swiper-item">
+                <image src="../resource/images/yjslq.jpg" style="width:250px; height:150px;border-radius:25px 25px 0 0;" mode="scaleToFill"></image>
+                <view class="contest-title">计算机科学与软件工程学院研究生篮球队再创辉煌！</view>
+              </view>
+            </swiper-item>
+            <swiper-item>
+              <view class="swiper-item">
+                <image src="../resource/images/xyh.jpg" style="width:250px; height:150px;border-radius:25px 25px 0 0;" mode="scaleToFill"></image>
+                <view class="contest-title">计算机科学与软件工程学院在华东师范大学运动会取得历史最佳成绩！</view>
+              </view>
+            </swiper-item>
+          </swiper>
+
+          <view class="contest-section">
+            <view class="contest-category">
+              <view class="contest-header">比赛详情</view>
+            </view>
+
+            <view class="contest-info">
+              <view class="contest-item">计算机科学与软件工程学院第四届院运会成功举办！</view>
+              <view class="contest-item">计算机科学与软件工程学院研究生篮球队再创辉煌！</view>
+              <view class="contest-item">华东师范大学阳光联赛开赛在即！</view>
+              <view class="contest-item">计算机科学与软件工程学院在华东师范大学运动会取得历史最佳成绩！</view>
+              <view class="contest-item">计算机科学与软件工程学院第二届3V3篮球赛开赛在即!</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </swiper-item>
+  </swiper>
+
+</view>

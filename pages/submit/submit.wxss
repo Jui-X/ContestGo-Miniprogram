@@ -1,0 +1,20 @@
+@import "../common/lib/weui.wxss";
+@import "../common/font.wxss";
+
+.submit-page{
+  display: felx;
+  flex-direction: column;
+  background-color: whitesmoke;
+  height: 1200rpx;
+}
+.header {
+  padding-top: 20rpx;
+}
+.website-section {
+  text-align: center;
+  height: 600rpx;
+  margin-top: 400rpx;
+}
+.website {
+
+}

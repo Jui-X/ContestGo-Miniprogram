@@ -1,0 +1,54 @@
+<view class="team-page">
+  <view class="favor_team">
+    <button class="favor_btn" bindtap="favor">
+      <image src="../resource/images/favor.png" style="height:50rpx; width:50rpx; padding-right: 10rpx;">
+      </image>
+      <view>打个招呼~</view>
+    </button>
+  </view>
+
+  <image src="../resource/images/yyh.jpg" style="width:100%; height:200px;"></image>
+
+  <view class="team-section"> 
+    <view class="team-title">
+      <view class="title-font">队伍名称：</view>
+      <view class="text-font">BrainGo大脑集训营</view>
+    </view>
+    <view class="team-title">
+      <view class="title-font">队长：</view>
+      <view class="text-font">二狗子</view>
+    </view>
+    <view class="team-info">
+      <view class="title-font">队伍简介</view>
+      <view class="highlight-font">互联网+队友招募</view>
+      <view class="text-font">我们的项目为研发一整套科学的注意力训练课程，主要面向有注意力缺陷（ADHD），俗称多动症儿童的家庭及对孩子的素质教育有较高要求的家庭进行推广。项目特色是来自研究室的神经反馈跟踪训练技术，结合脑电波信号采集、分析装置，使注意力的提升更科学有效。最终建立由线下到线上集个性教育及心理诊疗的大平台，帮助有注意力缺陷的儿童开启自信人生，除了提升注意力外，更多的想象力、创造力课程也正在研发哦~</view>
+    </view>
+    <view class="team-info">
+      <view class="title-font">招募要求</view>
+      <view class="highlight-font">注意力课程研发人员（1-2人）</view>
+      <view class="text-font">具体要求：</view>
+      <view class="text-font">１.来自发展教育专业、教育专业或有幼教专业。</view>
+      <view class="text-font">２.参与过儿童教育（做过助教小老师）的更好哦。</view>
+      <view class="text-font">３.喜欢儿童教育，喜欢小朋友，对小朋友健康发展有兴趣。</view>
+      <view class="highlight-font"></view>
+      <view class="highlight-font">微信小程序开发人员（前/后端共3人）</view>
+      <view class="text-font">具体要求：</view>
+      <view class="text-font">１.有过开发微信小程序、web小游戏的经验。</view>
+      <view class="text-font">２．有足够的脑洞，使游戏符合儿童兴趣，培养其游戏粘性同时增进其注意力的提高（这个我们会时常一起讨论哦）。</view>
+    </view>
+    <!-- <view class="team-info">
+      <view class="title-font">。</view>
+      <view class="text-font">。</view>
+        <view class="annotation-font">。</view>
+      <view class="text-font">。</view>
+      <view class="text-font">。</view>
+      <view class="annotation-font">。</view>
+    </view> -->
+    <!-- <view class="contest-info">
+      <view class="title-font">联系方式</view>
+      <view class="text-font">联系人：经雨珠；联系电话：54344786；</view>
+      <view class="text-font">邮箱：yzjing@sist.ecnu.edu.cn；</view>
+      <view class="text-font">联系地点：闵行校区行政楼220室。</view>
+    </view> -->
+  </view>
+</view>

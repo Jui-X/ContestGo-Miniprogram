@@ -1,0 +1,19 @@
+<view>
+  <view class="resume-info">
+    <button class="send-resume" bindtap="sendResume">
+      <image src="../resource/images/favor.png" style="height:50rpx; width:50rpx;">
+      </image>
+      <view>发送简介</view>
+    </button>
+  </view>
+
+  <view class="resume-info">
+    <view class="resume-item">姓名：<input type="text" value="{{username}}"></input></view>
+    <view class="resume-item">学号：<input type="text" value="{{stu_id}}"></input></view>
+    <view class="resume-item">学校：<input type="text" value="{{school}}"></input></view>
+    <view class="resume-item">院系：<input type="text" value="{{department}}"></input></view>
+    <view class="resume-item">个人简介：
+      <textarea type="text"  style="width: 75%;" placeholder="（100-200字为佳，最好让队长对你有一定的了解哦~）"></textarea>
+    </view>
+  </view>
+</view>
