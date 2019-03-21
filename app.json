@@ -1,10 +1,11 @@
 {
   "pages":[
-    "pages/teamAndShare/teamAndShare",
+    "pages/growthRecord/growthRecord",
     "pages/index/index",
     "pages/contest/contest",
     "pages/signUp/signUp",
     "pages/QRcode/QRcode",
+    "pages/teamAndShare/teamAndShare",
     "pages/teamInfo/teamInfo",
     "pages/teamRecruit/teamRecruit",
     "pages/resume/resume",

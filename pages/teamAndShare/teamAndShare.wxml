@@ -62,67 +62,75 @@
 
     <swiper-item>
       <view class="share-page">
-        <view class="share-item">
-          <view class="share-header">
-            <image src="../resource/images/icon_boy.png" style="height:50rpx; width:50rpx;"></image>
-            <view class='title-font'>权宁真</view>
+        <view class="share-section">
+          <view class="share-item">
+            <view class="share-header">
+              <image src="../resource/images/icon_girl.png" style="height:50rpx; width:50rpx;"></image>
+              <view class='title-font'>权宁真</view>
+            </view>
+            <view class="share-content">
+              <view class="title-font share-title">15级权宁真学长给大家带来经验分享！</view>
+              <view class="annotation-font share-intro">15级权宁真学长给大家带来经验分享！</view>
+            </view>
           </view>
-          <view class="share-content">
-            <view class="title-font share-title">15级权宁真学长给大家带来经验分享！</view>
-            <view class="annotation-font share-intro">15级权宁真学长给大家带来经验分享！</view>
-          </view>
-        </view>
-        <view class="share-item">
-          <view class="share-header">
-            <image src="../resource/images/icon_girl.png" style="height:50rpx; width:50rpx;"></image>
-            <view class='title-font'>姜晨怡</view>
-          </view>
-          <view class="share-content">
-            <view class="title-font share-title">15级姜晨怡学姐给大家带来经验分享！</view>
-            <view class="annotation-font share-intro">15级姜晨怡学姐给大家带来经验分享！</view>
+          <view class="comment">
+            <image src="../resource/images/icon_forward.png" style="height:50rpx; width:50rpx;"></image>
+            <image src="../resource/images/icon_comment.png" style="height:50rpx; width:50rpx;"></image>
+            <image src="../resource/images/icon_favor.png" style="height:50rpx; width:50rpx;"></image>
           </view>
         </view>
-        <view class="share-item">
-          <view class="share-header">
-            <image src="../resource/images/icon_boy1.png" style="height:50rpx; width:50rpx;"></image>
-            <view class='title-font'>彭宇</view>
+        <view class="share-section">
+          <view class="share-item">
+            <view class="share-header">
+              <image src="../resource/images/icon_girl.png" style="height:50rpx; width:50rpx;"></image>
+              <view class='title-font'>姜晨怡</view>
+            </view>
+            <view class="share-content">
+              <view class="title-font share-title">15级姜晨怡学姐给大家带来经验分享！</view>
+              <view class="annotation-font share-intro">15级姜晨怡学姐给大家带来经验分享！</view>
+            </view>
           </view>
-          <view class="share-content">
-            <view class="title-font share-title">15级彭宇学长给大家带来经验分享！</view>
-            <view class="annotation-font share-intro">15级彭宇学长给大家带来经验分享！</view>
-          </view>
-        </view>
-        <view class="share-item">
-          <view class="share-header">
-            <image src="../resource/images/icon_boy1.png" style="height:50rpx; width:50rpx;"></image>
-            <view class='title-font'>谢斌</view>
-          </view>
-          <view class="share-content">
-            <view class="title-font share-title">14级谢斌学长给大家带来经验分享！</view>
-            <view class="annotation-font share-intro">14级谢斌学长给大家带来经验分享！</view>
+          <view class="comment">
+            <image src="../resource/images/icon_forward.png" style="height:50rpx; width:50rpx;"></image>
+            <image src="../resource/images/icon_comment.png" style="height:50rpx; width:50rpx;"></image>
+            <image src="../resource/images/icon_favor.png" style="height:50rpx; width:50rpx;"></image>
           </view>
         </view>
-        <view class="share-item">
-          <view class="share-header">
-            <image src="../resource/images/icon_boy1.png" style="height:50rpx; width:50rpx;"></image>
-            <view class='title-font'>赖正敏</view>
+        <view class="share-section">
+          <view class="share-item">
+            <view class="share-header">
+              <image src="../resource/images/icon_girl.png" style="height:50rpx; width:50rpx;"></image>
+              <view class='title-font'>彭宇</view>
+            </view>
+            <view class="share-content">
+              <view class="title-font share-title">15级彭宇学长给大家带来经验分享！</view>
+              <view class="annotation-font share-intro">15级彭宇学长给大家带来经验分享！</view>
+            </view>
           </view>
-          <view class="share-content">
-            <view class="title-font share-title">14级赖正敏学长给大家带来经验分享！</view>
-            <view class="annotation-font share-intro">14级赖正敏学长给大家带来经验分享！</view>
+          <view class="comment">
+            <image src="../resource/images/icon_forward.png" style="height:50rpx; width:50rpx;"></image>
+            <image src="../resource/images/icon_comment.png" style="height:50rpx; width:50rpx;"></image>
+            <image src="../resource/images/icon_favor.png" style="height:50rpx; width:50rpx;"></image>
           </view>
         </view>
-        <view class="share-item">
-          <view class="share-header">
-            <image src="../resource/images/icon_boy1.png" style="height:50rpx; width:50rpx;"></image>
-            <view class='title-font'>赵宁</view>
+        <view class="share-section">
+          <view class="share-item">
+            <view class="share-header">
+              <image src="../resource/images/icon_girl.png" style="height:50rpx; width:50rpx;"></image>
+              <view class='title-font'>赵宁</view>
+            </view>
+            <view class="share-content">
+              <view class="title-font share-title">16级赵宁学姐给大家带来经验分享！</view>
+              <view class="annotation-font share-intro">16级赵宁学姐给大家带来经验分享！</view>
+            </view>
           </view>
-          <view class="share-content">
-            <view class="title-font share-title">16级赵宁学姐给大家带来经验分享！</view>
-            <view class="annotation-font share-intro">16级赵宁学姐给大家带来经验分享！</view>
+          <view class="comment">
+            <image src="../resource/images/icon_forward.png" style="height:50rpx; width:50rpx;"></image>
+            <image src="../resource/images/icon_comment.png" style="height:50rpx; width:50rpx;"></image>
+            <image src="../resource/images/icon_favor.png" style="height:50rpx; width:50rpx;"></image>
           </view>
         </view>
       </view>
     </swiper-item>
   </swiper>
-  </view>
+</view>

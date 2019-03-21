@@ -1,0 +1,19 @@
+<view>
+  <view class='container'>
+    <view class="container-col">
+      <block class='info-items'>
+        <image src="{{faceUrl}}" class="head-portrait"></image>
+      </block>
+      <label class='nickname info-items'>{{username}}</label>
+    </view>
+    <!-- <block>
+      <image class="head-portrait" bindtap='changeFace'></image>
+    </block> -->
+  </view>
+
+  <view class="record-section">
+    <view class="text-font record-item">2016.10~2017.11 华东师范大学创新创业大赛国创项目</view>
+    <view class="text-font record-item">2017.10~2018.4 华东师范大学大夏杯二等奖</view>
+    <view class="text-font record-item">2017.11~2019.5 第四届”互联网+"创新创业大赛全国金奖</view>
+  </view>
+</view>
