@@ -5,6 +5,7 @@ const stu_id = app.globalData.stu_id;
 const school = app.globalData.school;
 const department = app.globalData.department;
 const phone_num = app.globalData.phone_num;
+const email = app.globalData.email;
 
 Page({
   data: {
@@ -13,6 +14,7 @@ Page({
     school: school,
     department: department,
     phone_num: phone_num,
+    email: email,
     contest_name: "",
   },
   //事件处理函数
@@ -30,7 +32,7 @@ Page({
       phone_num: phone_num;
     }
     wx.navigateTo({
-      url: '../QRcode/QRcode',
+      url: '../signUp/signUp',
     })
   }
 })

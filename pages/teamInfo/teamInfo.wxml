@@ -1,7 +1,7 @@
 <view class="team-page">
   <view class="favor_team">
     <button class="favor_btn" bindtap="favor">
-      <image src="../resource/images/favor.png" style="height:50rpx; width:50rpx; padding-right: 10rpx;">
+      <image src="../resource/images/icon_favor.png" style="height:50rpx; width:50rpx; padding-right: 10rpx;">
       </image>
       <view>打个招呼~</view>
     </button>

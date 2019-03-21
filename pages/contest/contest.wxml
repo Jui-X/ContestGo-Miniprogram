@@ -2,7 +2,7 @@
 <view class="contest-page">
   <view class="apply">
     <button class="apply-btn" bindtap="signUp">
-      <image src="../resource/images/apply_btn.png" style="height:50rpx; width:50rpx;">
+      <image src="../resource/images/icon_apply.png" style="height:50rpx; width:50rpx;">
       </image>
       <view>一键报名</view>
     </button>

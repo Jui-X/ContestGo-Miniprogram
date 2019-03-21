@@ -1,7 +1,7 @@
 <view class="team-page">
   <view class="form_team">
     <button class="form_btn" bindtap="teamRecruit">
-      <image src="../resource/images/form_team.png" style="height:50rpx; width:50rpx;">
+      <image src="../resource/images/icon_recruit.png" style="height:50rpx; width:50rpx;">
       </image>
       <view>寻找队友</view>
     </button>
