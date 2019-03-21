@@ -1,8 +1,8 @@
 {
   "pages":[
+    "pages/teamAndShare/teamAndShare",
     "pages/index/index",
     "pages/contest/contest",
-    "pages/team/team",
     "pages/signUp/signUp",
     "pages/QRcode/QRcode",
     "pages/teamInfo/teamInfo",
@@ -31,10 +31,10 @@
         "text": "主页"
       },
       {
-        "pagePath": "pages/team/team",
+        "pagePath": "pages/teamAndShare/teamAndShare",
         "iconPath": "pages/resource/images/icon_team.png",
         "selectedIconPath": "pages/resource/images/icon_team_selected.png",
-        "text": "组队"
+        "text": "组队&分享"
       },
       {
         "pagePath": "pages/user/user",

@@ -1,5 +1,6 @@
 //获取应用实例
-const app = getApp()
+const app = getApp();
+const username = app.globalData.username;
 
 Page({
   data: {
@@ -9,6 +10,7 @@ Page({
     interval: 3000,
     duration: 1000,
     currentTab: 0,
+    username: username,
   },
   //事件处理函数
   changeTab(e) {

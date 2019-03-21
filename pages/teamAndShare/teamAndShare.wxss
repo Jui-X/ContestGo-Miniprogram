@@ -1,17 +1,18 @@
 @import "../common/lib/weui.wxss";
+@import "../common/font.wxss";
 
 .team-page {
   display: flex;
   flex-direction: column;
 }
-.form_team {
+.team-recruit {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-between;
   background-color: #E1F9FD;
   padding: 15rpx;
 }
-.form_btn {
+.recruit-btn {
   background-color: #E1F9FD;
   display: flex;
   flex-direction: row;
@@ -77,6 +78,7 @@
   color: #4169E1;
   font-size: 30rpx;
   text-align: center;
+  padding: 10rpx;
   border: 5rpx solid #fff;
   border-radius: 25px 25px 0 0;
 }
@@ -85,4 +87,27 @@
   color: #888888;
   font-size: 24rpx;
   text-align: center;
+}
+.share-page {
+  display: flex;
+  flex-direction: column;
+}
+.share-item {
+  display: flex;
+  flex-direction: row;
+  height: 120rpx;
+  margin: 25rpx;
+  background-color: #fff;
+  border-radius: 25rpx;
+  box-shadow: 0 5px 5px 0 #D0D0D0;
+}
+.share-header {
+  display: flex;
+  flex-direction: column;
+  padding-top: 25rpx;
+  padding-left: 25rpx;
+}
+.share-content {
+  padding-top: 20rpx;
+  padding-left: 20rpx;
 }
