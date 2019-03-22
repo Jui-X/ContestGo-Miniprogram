@@ -12,5 +12,10 @@ Page({
     wx.navigateTo({
       url: '../userInfo/userInfo',
     })
+  },
+  growthRecord(e) {
+    wx.navigateTo({
+      url: '../growthRecord/growthRecord',
+    })
   }
 })

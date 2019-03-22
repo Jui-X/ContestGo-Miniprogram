@@ -1,6 +1,5 @@
 {
   "pages":[
-    "pages/growthRecord/growthRecord",
     "pages/index/index",
     "pages/contest/contest",
     "pages/signUp/signUp",
@@ -11,6 +10,7 @@
     "pages/resume/resume",
     "pages/user/user",
     "pages/userInfo/userInfo",
+    "pages/growthRecord/growthRecord",
     "pages/login/login"
   ],
   "window":{

@@ -70,7 +70,24 @@
             </view>
             <view class="share-content">
               <view class="title-font share-title">15级权宁真学长给大家带来经验分享！</view>
-              <view class="annotation-font share-intro">15级权宁真学长给大家带来经验分享！</view>
+              <view class="annotation-font share-intro">权宁真学长给大家带来了经验交流分享~</view>
+            </view>
+          </view>
+          <view class="comment">
+            <image src="../resource/images/icon_forward.png" style="height:50rpx; width:50rpx;"></image>
+            <image src="../resource/images/icon_comment.png" style="height:50rpx; width:50rpx;"></image>
+            <image src="../resource/images/icon_favor.png" style="height:50rpx; width:50rpx;"></image>
+          </view>
+        </view>
+        <view class="share-section">
+          <view class="share-item">
+            <view class="share-header">
+              <image src="../resource/images/icon_girl.png" style="height:50rpx; width:50rpx;"></image>
+              <view class='title-font'>范伊旋</view>
+            </view>
+            <view class="share-content">
+              <view class="title-font share-title">双创项目中期答辩感悟~</view>
+              <view class="annotation-font share-intro">今天的第一次双创答辩我个人的几点感悟...</view>
             </view>
           </view>
           <view class="comment">
@@ -104,24 +121,7 @@
             </view>
             <view class="share-content">
               <view class="title-font share-title">15级彭宇学长给大家带来经验分享！</view>
-              <view class="annotation-font share-intro">15级彭宇学长给大家带来经验分享！</view>
-            </view>
-          </view>
-          <view class="comment">
-            <image src="../resource/images/icon_forward.png" style="height:50rpx; width:50rpx;"></image>
-            <image src="../resource/images/icon_comment.png" style="height:50rpx; width:50rpx;"></image>
-            <image src="../resource/images/icon_favor.png" style="height:50rpx; width:50rpx;"></image>
-          </view>
-        </view>
-        <view class="share-section">
-          <view class="share-item">
-            <view class="share-header">
-              <image src="../resource/images/icon_girl.png" style="height:50rpx; width:50rpx;"></image>
-              <view class='title-font'>赵宁</view>
-            </view>
-            <view class="share-content">
-              <view class="title-font share-title">16级赵宁学姐给大家带来经验分享！</view>
-              <view class="annotation-font share-intro">16级赵宁学姐给大家带来经验分享！</view>
+              <view class="annotation-font share-intro">彭宇学长向大家分享自己的几点心得感悟！</view>
             </view>
           </view>
           <view class="comment">

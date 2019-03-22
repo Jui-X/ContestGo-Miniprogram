@@ -22,7 +22,7 @@
   display: block;
 }
 .tabBorder {
-  border-bottom: 1px solid #E1F9FD;
+  border-bottom: 1px solid #4169E1;
 }
 .swiper {
   width: 100%;
