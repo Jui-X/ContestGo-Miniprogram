@@ -1,17 +1,17 @@
 {
   "pages":[
+    "pages/QRcode/QRcode",
     "pages/index/index",
     "pages/contest/contest",
     "pages/signUp/signUp",
-    "pages/QRcode/QRcode",
-    "pages/teamAndShare/teamAndShare",
-    "pages/teamInfo/teamInfo",
-    "pages/teamRecruit/teamRecruit",
+    "pages/team-and-share/team-and-share",
+    "pages/team-info/team-info",
+    "pages/team-recruit/team-recruit",
     "pages/resume/resume",
     "pages/user/user",
-    "pages/userInfo/userInfo",
-    "pages/growthRecord/growthRecord",
-    "pages/login/login"
+    "pages/user-info/user-info",
+    "pages/growth-record/growth-record"
+    "pages/login/login",
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -32,7 +32,7 @@
         "text": "主页"
       },
       {
-        "pagePath": "pages/teamAndShare/teamAndShare",
+        "pagePath": "pages/team-and-share/team-and-share",
         "iconPath": "pages/resource/images/icon_team.png",
         "selectedIconPath": "pages/resource/images/icon_team_selected.png",
         "text": "组队&分享"

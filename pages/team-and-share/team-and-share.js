@@ -31,12 +31,12 @@ Page({
   },
   teamRecruit(e) {
     wx.navigateTo({
-      url: '../teamRecruit/teamRecruit',
+      url: '../team-recruit/team-recruit',
     })
   },
   teamInfo(e) {
     wx.navigateTo({
-      url: '../teamInfo/teamInfo',
+      url: '../team-info/team-info',
     })
   }
 })

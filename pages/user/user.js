@@ -10,12 +10,12 @@ Page({
   //事件处理函数
   uploadUserInfo(e) {
     wx.navigateTo({
-      url: '../userInfo/userInfo',
+      url: '../user-info/user-info',
     })
   },
   growthRecord(e) {
     wx.navigateTo({
-      url: '../growthRecord/growthRecord',
+      url: '../growth-record/growth-record',
     })
   }
 })

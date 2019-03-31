@@ -1,3 +1,4 @@
 @import "../common/lib/weui.wxss";
+@import "../common/font.wxss";
 
 

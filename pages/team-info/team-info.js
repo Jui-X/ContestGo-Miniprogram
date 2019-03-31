@@ -10,7 +10,7 @@ Page({
       title: '是否一键导入？',
       content: '是否一键导入个人信息？',
       success: res => {
-        wx.redirectTo({
+        wx.navigateTo({
           url: '../resume/resume',
         })
       }
