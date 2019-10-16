@@ -1,7 +1,7 @@
 <view>
   <view class="resume-info">
     <button class="send-resume" bindtap="sendResume">
-      <image src="../resource/images/favor.png" style="height:50rpx; width:50rpx;">
+      <image src="../resource/images/icon_favor.png" style="height:50rpx; width:50rpx;">
       </image>
       <view>发送简介</view>
     </button>

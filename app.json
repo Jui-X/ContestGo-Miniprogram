@@ -1,23 +1,23 @@
 {
-  "pages":[
-    "pages/QRcode/QRcode",
+  "pages": [
     "pages/index/index",
     "pages/contest/contest",
     "pages/signUp/signUp",
     "pages/team-and-share/team-and-share",
     "pages/team-info/team-info",
+    "pages/QRcode/QRcode",
     "pages/team-recruit/team-recruit",
     "pages/resume/resume",
     "pages/user/user",
     "pages/user-info/user-info",
-    "pages/growth-record/growth-record"
-    "pages/login/login",
+    "pages/growth-record/growth-record",
+    "pages/login/login"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#E1F9FD",
     "navigationBarTitleText": "ContestGo",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#7A7E83",
@@ -44,5 +44,6 @@
         "text": "个人中心"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

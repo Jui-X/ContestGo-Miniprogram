@@ -18,7 +18,7 @@
     <view class='tab {{currentTab == 1 ? "tabBorder" : ""}}' data-current="1" bindtap="checkCurrentTab">经验分享</view>
   </view>
 
-  <swiper current="{{currentTab}}" class="swiper" style="height:700px;" duration="500" bindChange="changeTab">
+  <swiper current="{{currentTab}}" class="swiper" style="height:1000rpx;" duration="500" bindChange="changeTab">
     <swiper-item>
       <view class="team-page">
         <view class="team-section">
