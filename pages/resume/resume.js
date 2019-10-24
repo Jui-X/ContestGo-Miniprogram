@@ -9,16 +9,39 @@ const phone_num = app.globalData.phone_num;
 
 Page({
   data: {
+    captain: "",
     username: username,
     stu_id: stu_id,
     school: school,
     department: department,
     phone_num: phone_num,
+    resume: "",
   },
   //事件处理函数
+  onLoad(options) {
+    var that = this;
+    var captain = options.captain;
+    that.setData({
+      captain: captain,
+    })
+  },
   sendResume(e) {
+    const serverUrl = app.serverUrl;
+    console.log(e.detail.value);
+    var resume = e.detail.value.resume;
+    console.log(resume);
     wx.request({
-      url: 'http://127.0.0.1:8081/nothing',
+      url: serverUrl + "/team/sendResume",
+      method: "POST",
+      data: {
+        captain: this.data.captain,
+        username: this.data.username,
+        stu_id: this.data.stu_id,
+        school: this.data.school,
+        department: this.data.department,
+        phone_num: this.data.phone_num,
+        resume: resume,
+      },
       success: res => {
         wx.showToast({
           title: '发送成功~',

@@ -51,13 +51,9 @@
             </view>
 
             <view class="contest-info">
-              <view class="contest-item" bindtap="navigateTo">计算机与软件学院双创中期答辩启动！</view>
-              <view class="contest-item" bindtap="navigateTo">计算机与软件学院为华东师大夺得互联网+大赛首金！</view>
-              <view class="contest-item" bindtap="navigateTo">华东师范大学第二十七届大夏杯进入作品提交阶段！</view>
-              <view class="contest-item" bindtap="navigateTo">2019年挑战杯启动报名！</view>
-              <view class="contest-item" bindtap="navigateTo">2019年力扣杯-春季高校编程大赛启动报名!</view>
-              <view class="contest-item" bindtap="navigateTo">2019年华为软件精英挑战赛启动!</view>
-              <view class="contest-item" bindtap="navigateTo">2019年高校微信小程序开发大赛启动报名!</view>
+              <block wx:for="{{scientific_contest}}" wx:key="item.contest_id">
+                <view class="contest-item" id="{{item.contest_id}}" bindtap="navigateTo">{{item.contest_name}}</view>
+              </block>
             </view>
           </view>
         </view>
@@ -93,11 +89,9 @@
             </view>
 
             <view class="contest-info">
-              <view class="contest-item">计算机科学与软件工程学院第三届院运会成功举办！</view>
-              <view class="contest-item">计算机科学与软件工程学院研究生篮球队再创辉煌！</view>
-              <view class="contest-item">华东师范大学阳光联赛开赛在即！</view>
-              <view class="contest-item">计算机科学与软件工程学院在华东师范大学运动会取得历史最佳成绩！</view>
-              <view class="contest-item">计算机科学与软件工程学院第二届3V3篮球赛开赛在即!</view>
+              <block wx:for="{{sport_contest}}" wx:key="item.contest_id">
+                <view class="contest-item" id="{{item.contest_id}}" bindtap="navigateTo">{{item.contest_name}}</view>
+              </block>
             </view>
           </view>
         </view>

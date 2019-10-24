@@ -1,0 +1,14 @@
+<view>
+  <view class='container'>
+    <view class="container-col">
+      <label class='team-info info-items'>{{team_name}}</label>
+      <label class='annotation-font info-items'>队伍ID:{{team_number}}</label>
+    </view>
+  </view>
+
+  <view class="record-section">
+    <view class="text-font record-item">队伍简介：</view>
+    <view class="text-font record-item">队长信息：</view>
+    <view class="text-font record-item">队员信息：</view>
+  </view>
+</view>

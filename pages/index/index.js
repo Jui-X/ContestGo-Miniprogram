@@ -11,6 +11,36 @@ Page({
     duration: 1000,
     currentTab: 0,
 
+    scientific_contest: [{
+      contest_id: "",
+      contest_name: "",
+    }],
+    sport_contest: [{
+      contest_id: "",
+      contest_name: "",
+    }],
+  },
+  onLoad(query) {
+    var that = this;
+    var serverUrl = app.serverUrl;
+    wx.request({
+      url: serverUrl + '/contest/listContest/scientific',
+      method: "GET",
+      success: res => {
+        that.setData ({
+          scientific_contest: res.data.data
+        })
+      }
+    }),
+    wx.request({
+      url: serverUrl + '/contest/listContest/sport',
+      method: "GET",
+      success: res => {
+        that.setData({
+          sport_contest: res.data.data
+        })
+      }
+    })
   },
   changeTab(e) {
     const that = this;
@@ -29,8 +59,9 @@ Page({
     }
   },
   navigateTo(e) {
+    var id = e.currentTarget.id;
     wx.navigateTo({
-      url: '../contest/contest',
+      url: '../contest/contest?id=' + id,
     })
   }
 })

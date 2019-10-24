@@ -6,14 +6,21 @@
       </block>
       <label class='nickname info-items'>{{username}}</label>
     </view>
-    <!-- <block>
-      <image class="head-portrait" bindtap='changeFace'></image>
-    </block> -->
   </view>
 
-  <view class="record-section">
+  <view class="timeline-section">
     <view class="text-font record-item">2016.10~2017.11 华东师范大学创新创业大赛国创项目</view>
-    <view class="text-font record-item">2017.10~2018.4 华东师范大学大夏杯二等奖</view>
-    <view class="text-font record-item">2017.11~2019.5 第四届”互联网+"创新创业大赛全国金奖</view>
+      <block wx:for="{{contest_timeline}}" wx:key="item.id">
+        <view class="timeline-item">
+          <view class="timeline">
+            <view class="line"></view>
+            <view class="dot"></view>
+          </view>
+          <view class="content">
+            <text class="time">{{item.time}}</text>
+            <text class="content">{{item.contest}}</text>
+          </view>
+        </view>
+      </block>
   </view>
 </view>

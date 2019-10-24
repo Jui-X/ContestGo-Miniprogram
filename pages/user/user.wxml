@@ -22,15 +22,15 @@
   <view class="page-container"> 
     <view class="page-item" bindtap="growthRecord">
       <image src="../resource/images/icon_chart.png" style="height:18px; width:18px;"></image>
-      <view style="width:100%; font-size:13px; padding-left:10px;">我的成长记录</view>
+      <view style="width:100%; font-size:13px; padding-left:10px;">我的比赛记录</view>
     </view>
-    <view class="page-item">
+    <view class="page-item" bindtap="getTeamInfo">
       <image src="../resource/images/icon_contest.png" style="height:18px; width:18px;"></image>
-      <view style="width:100%; font-size:13px; padding-left:10px;">我关注的比赛</view>
+      <view style="width:100%; font-size:13px; padding-left:10px;">我所在的队伍</view>
     </view>
-    <view class="page-item">
+    <view class="page-item" bindtap="getReimbursement">
       <image src="../resource/images/icon_schedule.png" style="height:18px; width:18px;"></image>
-      <view style="width:100%; font-size:13px; padding-left:10px;">我的比赛日程</view>
+      <view style="width:100%; font-size:13px; padding-left:10px;">我的报销记录</view>
     </view>
   </view>
 

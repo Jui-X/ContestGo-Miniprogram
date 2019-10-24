@@ -1,9 +1,11 @@
 //获取应用实例
-const app = getApp()
+const app = getApp();
+const username = app.globalData.username;
+const stu_id = app.globalData.stu_id;
 
 Page({
   data: {
-    faceUrl: 'https://developers.weixin.qq.com/miniprogram/dev/image/cat/0.jpg?t=19031520',
+    faceUrl: '',
     mode: 'scaleToFill',
     username: '橘子'
   },
@@ -16,6 +18,16 @@ Page({
   growthRecord(e) {
     wx.navigateTo({
       url: '../growth-record/growth-record',
+    })
+  },
+  getTeamInfo(e) {
+    wx.navigateTo({
+      url: '../my-team/my-team',
+    })
+  },
+  getReimbursement(e) {
+    wx.navigateTo({
+      url: '../reimbursement/reimbursement',
     })
   }
 })

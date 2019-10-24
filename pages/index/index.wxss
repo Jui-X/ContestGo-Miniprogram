@@ -29,7 +29,7 @@
 }
 .swiper-section {
   text-align: center;
-  height: 100%;
+  height: auto;
   /* background-image: url(); */
   background-repeat: no-repeat;
   background-size: 100% 100%;

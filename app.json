@@ -7,10 +7,13 @@
     "pages/team-info/team-info",
     "pages/QRcode/QRcode",
     "pages/team-recruit/team-recruit",
+    "pages/post-moments/post-moments",
     "pages/resume/resume",
     "pages/user/user",
     "pages/user-info/user-info",
+    "pages/my-team/my-team",
     "pages/growth-record/growth-record",
+    "pages/reimbursement/reimbursement",
     "pages/login/login"
   ],
   "window": {
