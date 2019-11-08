@@ -11,13 +11,13 @@ Page({
     duration: 1000,
     currentTab: 0,
 
-    scientific_contest: [{
-      contest_id: "",
-      contest_name: "",
+    scientificContest: [{
+      contestId: "",
+      contestName: "",
     }],
-    sport_contest: [{
-      contest_id: "",
-      contest_name: "",
+    sportContest: [{
+      contestId: "",
+      contestName: "",
     }],
   },
   onLoad(query) {
@@ -28,7 +28,7 @@ Page({
       method: "GET",
       success: res => {
         that.setData ({
-          scientific_contest: res.data.data
+          scientificContest: res.data.data
         })
       }
     }),
@@ -37,7 +37,7 @@ Page({
       method: "GET",
       success: res => {
         that.setData({
-          sport_contest: res.data.data
+          sportContest: res.data.data
         })
       }
     })

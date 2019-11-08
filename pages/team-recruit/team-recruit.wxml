@@ -1,21 +1,20 @@
 <view class="recruit-page">
-<form bindsubmit="recruit">
-  <view class="recruit">
-    <button class="recruit_btn" form-type="submit">
-      <image src="../resource/images/submit_info.png" style="height:50rpx; width:50rpx;">
-      </image>
-      <view>发布信息</view>
-    </button>
-  </view>
+  <form bindsubmit="recruit">
+    <view class="recruit">
+      <button class="recruit_btn" form-type="submit">
+        <image src="../resource/images/submit_info.png" style="height:50rpx; width:50rpx;">
+        </image>
+        <view>发布信息</view>
+      </button>
+    </view>
 
-  <view class="team-info">
-    <view class="team-item">队伍名称：<input type="text" value="{{team_name}}" name="team_name"></input></view>
-    <view class="team-item">队长：<input type="text" value="{{captain}}" name="captain"></input></view>
-    <view class="team-item">队伍简介：<textarea type="text" style="width: 75%;" value="{{team_info}}" name="team_info"></textarea></view>
-    <view class="team-item">招募要求：<textarea type="text" style="width: 75%;" value="{{recruit_request}}" name="recruit_request"></textarea></view>
-    <view class="team-item">工作简介：<textarea type="text" style="width: 75%;" value="{{workload}}" name="workload"></textarea></view>
-    <view class="team-item">联系方式:<input type="text" value="{{phone_num}}" name="phone_num"></input></view>
-  </view>
-</form>
-  
+    <view class="team-info">
+      <view class="team-item">队伍名称：<input type="text" value="{{teamName}}" name="teamName"></input></view>
+      <view class="team-item">队长：<input type="text" value="{{captain}}" name="captain"></input></view>
+      <view class="team-item">队伍简介：<textarea type="text" style="width: 75%;" value="{{teamInfo}}" name="teamInfo"></textarea></view>
+      <view class="team-item">招募要求：<textarea type="text" style="width: 75%;" value="{{recruitRequest}}" name="recruitRequest"></textarea></view>
+      <view class="team-item">工作简介：<textarea type="text" style="width: 75%;" value="{{workload}}" name="workload"></textarea></view>
+      <view class="team-item">联系方式:<input type="text" value="{{phoneNum}}" name="phoneNum"></input></view>
+    </view>
+  </form>
 </view>

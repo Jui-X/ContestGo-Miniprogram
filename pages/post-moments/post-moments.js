@@ -3,14 +3,14 @@ const app = getApp()
 
 Page({
   data: {
-    moments_title: "",
-    moments_publisher: "",
-    moments_content: "",
+    momentsTitle: "",
+    momentsPublisher: "",
+    momentsContent: "",
   },
   //事件处理函数
   onLoad(options) {
     this.setData({
-      moments_publisher: options.username,
+      momentsPublisher: options.username,
     })
   },
   postMoments(e) {
@@ -19,17 +19,16 @@ Page({
       content: '确认发布动态？',
       success: res => {
         if (res.confirm) {
-          console.log('form发生了submit事件，携带数据为：', e.detail.value)
-          var moments_title = e.detail.value.moments_title;
-          var moments_publisher = e.detail.value.moments_publisher;
-          var moments_content = e.detail.value.moments_content;
+          var momentsTitle = e.detail.value.momentsTitle;
+          var momentsPublisher = e.detail.value.momentsPublisher;
+          var momentsContent = e.detail.value.momentsContent;
           wx.request({
             url: 'http://127.0.0.1:8081/moments/postMoments',
             method: "POST",
             data: {
-              moments_title: moments_title,
-              moments_publisher: moments_publisher,
-              moments_content: moments_content,
+              momentsTitle: momentsTitle,
+              momentsPublisher: momentsPublisher,
+              momentsContent: momentsContent,
             },
             success: function (res) {
               if (res.data.status == "200") {

@@ -14,7 +14,7 @@
   <view class="signUp-info">
     <view class="signUp-item">队伍ID：<input type="text" value="{{school}}"></input></view>
     <view class="signUp-item">队长姓名：<input type="text" value="{{username}}"></input></view>
-    <view class="signUp-item">队长学号：<input type="text" value="{{stu_id}}"></input></view>
+    <view class="signUp-item">队长学号：<input type="text" value="{{stuId}}"></input></view>
     <view class="signUp-item">学校&院系：<input type="text" value="{{department}}"></input></view>
   </view>
 </view>

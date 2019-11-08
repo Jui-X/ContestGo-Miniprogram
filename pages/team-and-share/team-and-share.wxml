@@ -21,11 +21,11 @@
   <swiper current="{{currentTab}}" class="swiper" style="height:1000rpx;" duration="500" bindChange="changeTab">
     <swiper-item>
       <view class="team-page">
-        <block wx:for="{{team}}" wx:key="item.team_number">
+        <block wx:for="{{team}}" wx:key="item.teamNumber">
           <view class="team-section">
-            <view class="team-item" id="{{item.team_number}}" bindtap="teamInfo">
-              <view class="team-title">{{item.team_name}}</view>
-              <view class="team-info">{{item.team_info}}</view>
+            <view class="team-item" id="{{item.teamNumber}}" bindtap="teamInfo">
+              <view class="team-title">{{item.teamName}}</view>
+              <view class="team-info">{{item.teamInfo}}</view>
             </view>
           </view>
         </block>
@@ -34,15 +34,15 @@
 
     <swiper-item>
       <view class="moments-page">
-        <block wx:for="{{moments}}" wx:key="item.moments_id">
+        <block wx:for="{{moments}}" wx:key="item.momentsId">
           <view class="moments-section">
             <view class="moments-item">
-              <view class="moments-header" id="{{item.moments_id}}" bindtap="moments">
+              <view class="moments-header" id="{{item.momentsId}}" bindtap="moments">
                 <image src="../resource/images/icon_girl.png" style="height:50rpx; width:50rpx;"></image>
-                <view class='title-font'>{{item.moments_publisher}}</view>
+                <view class='title-font'>{{item.momentsPublisher}}</view>
               </view>
               <view class="moments-content">
-                <view class="title-font moments-title">{{item.moments_title}}</view>
+                <view class="title-font moments-title">{{item.momentsTitle}}</view>
               </view>
             </view>
             <view class="comment">

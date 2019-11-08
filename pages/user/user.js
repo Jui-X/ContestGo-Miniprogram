@@ -1,13 +1,14 @@
 //获取应用实例
 const app = getApp();
 const username = app.globalData.username;
-const stu_id = app.globalData.stu_id;
+const stuId = app.globalData.stuId;
 
 Page({
   data: {
     faceUrl: '',
     mode: 'scaleToFill',
-    username: '橘子'
+    username: '橘子',
+    stuId: stuId,
   },
   //事件处理函数
   uploadUserInfo(e) {
@@ -22,12 +23,12 @@ Page({
   },
   getTeamInfo(e) {
     wx.navigateTo({
-      url: '../my-team/my-team',
+      url: '../my-team/my-team?stuId=' + this.data.stuId,
     })
   },
   getReimbursement(e) {
     wx.navigateTo({
-      url: '../reimbursement/reimbursement',
+      url: '../reimbursement/reimbursement?stuId=' + this.data.stuId,
     })
   }
 })

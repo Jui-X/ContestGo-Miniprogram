@@ -1,26 +1,16 @@
 <view>
-  <view class='container'>
-    <view class="container-col">
-      <block class='info-items'>
-        <image src="{{faceUrl}}" class="head-portrait"></image>
-      </block>
-      <label class='nickname info-items'>{{username}}</label>
-    </view>
-  </view>
-
   <view class="timeline-section">
-    <view class="text-font record-item">2016.10~2017.11 华东师范大学创新创业大赛国创项目</view>
-      <block wx:for="{{contest_timeline}}" wx:key="item.id">
-        <view class="timeline-item">
-          <view class="timeline">
-            <view class="line"></view>
-            <view class="dot"></view>
-          </view>
-          <view class="content">
-            <text class="time">{{item.time}}</text>
-            <text class="content">{{item.contest}}</text>
-          </view>
+    <block wx:for="{{contestTimeline}}" wx:key="item.id">
+      <view class="timeline-item">
+        <view class="timeline">
+          <view class="line"></view>
+          <view class="dot"></view>
         </view>
-      </block>
+        <view class="content">
+          <text class="time">{{item.startTime}}-{{item.endTime}}</text>
+          <text class="content">{{item.contestName}}</text>
+        </view>
+      </view>
+    </block>
   </view>
 </view>

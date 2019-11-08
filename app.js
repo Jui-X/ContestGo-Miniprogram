@@ -37,10 +37,10 @@ App({
   globalData: {
     userInfo: null,
     username: "橘子",
-    stu_id: "10110101101",
+    stuId: "10165101101",
     school: "ECNU",
     department: "SCSSE",
-    phone_num: "13111013231",
+    phoneNum: "13111013231",
     email: "501315555@qq.com",
   }
 })

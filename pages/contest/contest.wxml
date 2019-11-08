@@ -8,24 +8,24 @@
     </button>
   </view>
   
-  <image src="{{contest_detail.cover_img}}" style="width:100%; height:200px;"></image>
+  <image src="../resource/images/sc.jpg" style="width:100%; height:200px;"></image>
 
   <view class="contest-section">
     <view class="contest-title">
       <view class="title-font">大赛名称：</view>
-      <view class="text-font">{{contest_detail.contest_name}}</view>
+      <view class="text-font">{{contestInfo.contestName}}</view>
     </view>
     <view class="contest-info">
       <view class="title-font">大赛详情</view>
-      <view class="text-font">{{contest_detail.contest_detail}}</view>
+      <view class="text-font">{{contestInfo.contestDetail}}</view>
       <view class="text-font"></view>
     </view>
     <view class="contest-info">
       <view class="title-font">联系方式</view>
-      <view class="highlight-font">联系人：{{contest_detail.contest_contact}}</view>
-      <view class="highlight-font">邮箱：{{contest_detail.email_address}}</view>
-      <view class="highlight-font">报名截止日期：{{contest_detail.apply_deadline}}</view>
-      <view class="highlight-font">材料提交截止日期：{{contest_detail.submit_deadline}}</view>
+      <view class="highlight-font">联系人：{{contestInfo.contestContact}}</view>
+      <view class="highlight-font">邮箱：{{contestInfo.emailAddress}}</view>
+      <view class="highlight-font">报名截止日期：{{contestInfo.applyDeadline}}</view>
+      <view class="highlight-font">材料提交截止日期：{{contestInfo.submitDeadline}}</view>
     </view>
     <view class="contest-info">
       <view class="title-font">附件下载</view>

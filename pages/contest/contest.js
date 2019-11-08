@@ -1,45 +1,42 @@
 //获取应用实例
 const app = getApp()
 const username = app.globalData.username;
-const stu_id = app.globalData.stu_id;
+const stuId = app.globalData.stuId;
 const school = app.globalData.school;
 const department = app.globalData.department;
-const phone_num = app.globalData.phone_num;
+const phoneNum = app.globalData.phoneNum;
 const email = app.globalData.email;
 
 Page({
   data: {
-    contest_id: 1,
     username: username,
-    stu_id: stu_id,
+    stuId: stuId,
     school: school,
     department: department,
-    phone_num: phone_num,
+    phoneNum: phoneNum,
     email: email,
-    contest_detail: {
-      contest_name: "",
-      contest_detail: "",
-      apply_deadline: "",
-      submit_deadline: "",
-      contest_contact: "",
-      email_address: "",
-      cover_img: "",
+    contestInfo: {
+      contestId: "",
+      contestName: "",
+      contestDetail: "",
+      applyDeadline: "",
+      submitDeadline: "",
+      contestContact: "",
+      emailAddress: "",
+      coverImg: "",
     }
   },
   //事件处理函数
   onLoad(options) {
-    var contest_id = options.id;
+    var contestId = options.id;
     var that = this;
     var serverUrl = app.serverUrl;
     wx.request({
-      url: serverUrl + '/contest/getContestDetail',
+      url: serverUrl + '/contest/getContestDetail?contestId=' + contestId,
       method: "GET",
-      data: {
-        contest_id: contest_id
-      },
       success: res => {
         that.setData({
-          contest_detail: res.data.data
+          contestInfo: res.data.data
         })
       }
     })
@@ -51,7 +48,7 @@ Page({
       success: res => {
         if(res.confirm) {
           wx.navigateTo({
-            url: '../signUp/signUp?contest_name=' + this.data.contest_detail.contest_name,
+            url: '../signUp/signUp?contestName=' + this.data.contestInfo.contestName,
           })
         } else if(res.cancel) {
         }
@@ -68,8 +65,8 @@ Page({
           url: serverUrl + "/contest/sendAttachment",
           method: "POST",
           data: {
-            contest_id: this.data.contest_id,
-            email_address: this.data.email
+            contestId: this.data.contestId,
+            emailAddress: this.data.email
           },
           success: function (res) {
             wx.showToast({

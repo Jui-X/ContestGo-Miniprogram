@@ -1,0 +1,106 @@
+<view>
+  <view class="header">
+    <button class="header-btn" bindtap="addRecord">
+      <image src="../resource/images/icon_add.png" style="height:50rpx; width:50rpx;">
+      </image>
+      <view>添加报销记录</view>
+    </button>
+
+    <button class="header-btn" bindtap="">
+      <image src="../resource/images/icon_create.png" style="height:50rpx; width:50rpx;">
+      </image>
+      <view>生成报销文档</view>
+    </button>
+  </view>
+
+  <view class="timeline-item">
+    <view class="timeline">
+      <view class="line"></view>
+      <view class="dot"></view>
+    </view>
+    <view class="content">
+      <text class="type">报销类型：交通</text>
+      <block wx:for="{{reimbursementRecord}}" wx:key="">
+        <view wx:if="{{item.reimbursementType == '1'}}" class="record-section">
+          <view class="text-font">报销物品：{{item.reimbursementItem}}</view>
+          <view class="text-font">报销金额：{{item.reimbursementAmount}}</view>
+        </view>
+      </block>
+    </view>
+  </view>
+   <view class="timeline-item">
+    <view class="timeline">
+      <view class="line"></view>
+      <view class="dot"></view>
+    </view>
+    <view class="content">
+      <text class="type">报销类型：办公用品</text>
+      <block wx:for="{{reimbursementRecord}}" wx:key="">
+        <view wx:if="{{item.reimbursementType == '2'}}" class="record-section">
+          <view class="text-font">报销物品：{{item.reimbursementItem}}</view>
+          <view class="text-font">报销金额：{{item.reimbursementAmount}}</view>
+        </view>
+      </block>
+    </view>
+  </view>
+   <view class="timeline-item">
+    <view class="timeline">
+      <view class="line"></view>
+      <view class="dot"></view>
+    </view>
+    <view class="content">
+      <text class="type">报销类型：电脑配件</text>
+      <block wx:for="{{reimbursementRecord}}" wx:key="">
+        <view wx:if="{{item.reimbursementType == '3'}}" class="record-section">
+          <view class="text-font">报销物品：{{item.reimbursementItem}}</view>
+          <view class="text-font">报销金额：{{item.reimbursementAmount}}</view>
+        </view>
+      </block>
+    </view>
+  </view>
+   <view class="timeline-item">
+    <view class="timeline">
+      <view class="line"></view>
+      <view class="dot"></view>
+    </view>
+    <view class="content">
+      <text class="type">报销类型：书</text>
+      <block wx:for="{{reimbursementRecord}}" wx:key="">
+        <view wx:if="{{item.reimbursementType == '4'}}" class="record-section">
+          <view class="text-font">报销物品：{{item.reimbursementItem}}</view>
+          <view class="text-font">报销金额：{{item.reimbursementAmount}}</view>
+        </view>
+      </block>
+    </view>
+  </view>
+   <view class="timeline-item">
+    <view class="timeline">
+      <view class="line"></view>
+      <view class="dot"></view>
+    </view>
+    <view class="content">
+      <text class="type">报销类型：打印费</text>
+      <block wx:for="{{reimbursementRecord}}" wx:key="">
+        <view wx:if="{{item.reimbursementType == '5'}}" class="record-section">
+          <view class="text-font">报销物品：{{item.reimbursementItem}}</view>
+          <view class="text-font">报销金额：{{item.reimbursementAmount}}</view>
+        </view>
+      </block>
+    </view>
+  </view>
+   <view class="timeline-item">
+    <view class="timeline">
+      <view class="line"></view>
+      <view class="dot"></view>
+    </view>
+    <view class="content">
+      <text class="type">报销类型：耗材</text>
+      <block wx:for="{{reimbursementRecord}}" wx:key="">
+        <view wx:if="{{item.reimbursementType == '6'}}" class="record-section">
+          <view class="text-font">报销物品：{{item.reimbursementItem}}</view>
+          <view class="text-font">报销金额：{{item.reimbursementAmount}}</view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>

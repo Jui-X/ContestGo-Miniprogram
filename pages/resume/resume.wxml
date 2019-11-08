@@ -10,7 +10,7 @@
 
     <view class="resume-info">
       <view class="resume-item">姓名：<input type="text" value="{{username}}"></input></view>
-      <view class="resume-item">学号：<input type="text" value="{{stu_id}}"></input></view>
+      <view class="resume-item">学号：<input type="text" value="{{stuId}}"></input></view>
       <view class="resume-item">学校：<input type="text" value="{{school}}"></input></view>
       <view class="resume-item">院系：<input type="text" value="{{department}}"></input></view>
       <view class="resume-item">个人简介：

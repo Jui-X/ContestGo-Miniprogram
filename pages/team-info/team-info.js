@@ -4,21 +4,21 @@ const app = getApp()
 Page({
   data: {
     team: {
-      team_number: "",
-      team_name: "",
+      teamNumber: "",
+      teamName: "",
       captain: "",
-      team_info: "",
-      recruit_request: "",
+      teamInfo: "",
+      recruitRequest: "",
       workload: "",
     }
   },
   //事件处理函数
   onLoad(options) {
-    const team_number = options.team_number;
+    const teamNumber = options.teamNumber;
     var that = this;
     var serverUrl = app.serverUrl;
     wx.request({
-      url: serverUrl + '/team/getTeamInfo?team_number=' + team_number,
+      url: serverUrl + '/team/getTeamInfo?teamNumber=' + teamNumber,
       method: "GET",
       success: res => {
         if (res.data.status == 200) {

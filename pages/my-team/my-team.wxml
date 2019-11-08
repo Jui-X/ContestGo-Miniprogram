@@ -1,14 +1,16 @@
 <view>
-  <view class='container'>
-    <view class="container-col">
-      <label class='team-info info-items'>{{team_name}}</label>
-      <label class='annotation-font info-items'>队伍ID:{{team_number}}</label>
+  <block wx:for="{{team}}" wx:key="item.teamNumber">
+    <view class='container'>
+      <view class="container-col">
+        <label class='team-info info-items'>{{item.teamName}}</label>
+        <label class='annotation-font info-items'>队伍ID:{{item.teamNumber}}</label>
+      </view>
     </view>
-  </view>
 
-  <view class="record-section">
-    <view class="text-font record-item">队伍简介：</view>
-    <view class="text-font record-item">队长信息：</view>
-    <view class="text-font record-item">队员信息：</view>
-  </view>
+    <view class="record-section">
+      <view class="text-font record-item">队伍简介：{{item.teamInfo}}</view>
+      <view class="text-font record-itemß">队长信息：{{item.captain}}</view>
+      <view class="text-font record-item">队员信息：{{item.teamMembers}}</view>
+    </view>
+  </block>
 </view>

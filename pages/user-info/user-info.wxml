@@ -20,9 +20,9 @@
 
   <view class="user-info">
     <view class="user-item">姓名：<input type="text" value="{{username}}"></input></view>
-    <view class="user-item">学号：<input type="text" value="{{stu_id}}"></input></view>
+    <view class="user-item">学号：<input type="text" value="{{stuId}}"></input></view>
     <view class="user-item">学校：<input type="text" value="{{school}}"></input></view>
     <view class="user-item">院系：<input type="text" value="{{department}}"></input></view>
-    <view class="user-item">手机号：<input type="text" value="{{phone_num}}"></input></view>
+    <view class="user-item">手机号：<input type="text" value="{{phoneNum}}"></input></view>
   </view>
 </view>

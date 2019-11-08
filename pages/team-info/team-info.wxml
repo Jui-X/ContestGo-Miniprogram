@@ -12,7 +12,7 @@
   <view class="team-section"> 
     <view class="team-title">
       <view class="title-font">队伍名称：</view>
-      <view class="text-font">{{team.team_name}}</view>
+      <view class="text-font">{{team.teamName}}</view>
     </view>
     <view class="team-title">
       <view class="title-font">队长：</view>
@@ -20,11 +20,11 @@
     </view>
     <view class="team-info">
       <view class="title-font">队伍简介</view>
-      <view class="text-font">{{team.team_info}}</view>
+      <view class="text-font">{{team.teamInfo}}</view>
     </view>
     <view class="team-info">
       <view class="title-font">招募要求</view>
-      <view class="highlight-font">{{team.recruit_request}}</view>
+      <view class="highlight-font">{{team.recruitRequest}}</view>
     </view>
   </view>
 </view>

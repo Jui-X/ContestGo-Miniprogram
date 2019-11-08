@@ -1,35 +1,35 @@
 //获取应用实例
 const app = getApp()
 const username = app.globalData.username;
-const stu_id = app.globalData.stu_id;
+const stuId = app.globalData.stu_id;
 const school = app.globalData.school;
 const department = app.globalData.department;
-const phone_num = app.globalData.phone_num;
+const phoneNum = app.globalData.phone_num;
 const email = app.globalData.email;
 
 Page({
   data: {
     username: username,
-    stu_id: stu_id,
+    stuId: stuId,
     school: school,
     department: department,
-    phone_num: phone_num,
+    phoneNum: phoneNum,
     email: email,
-    contest_name: "",
+    contestName: "",
   },
   //事件处理函数
   onLoad(options) {
     this.setData({
-      contest_name: options.contest_name,
+      contestName: options.contestName,
     })
   },
   sendResume(e) {
     data: {
       username: username;
-      stu_id: stu_id;
+      stuId: stuId;
       school: school;
       department: department;
-      phone_num: phone_num;
+      phoneNum: phoneNum;
     }
     wx.scanCode({
       success(res) {

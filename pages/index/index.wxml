@@ -51,8 +51,8 @@
             </view>
 
             <view class="contest-info">
-              <block wx:for="{{scientific_contest}}" wx:key="item.contest_id">
-                <view class="contest-item" id="{{item.contest_id}}" bindtap="navigateTo">{{item.contest_name}}</view>
+              <block wx:for="{{scientificContest}}" wx:key="item.contestId">
+                <view class="contest-item" id="{{item.contestId}}" bindtap="navigateTo">{{item.contestName}}</view>
               </block>
             </view>
           </view>
@@ -89,8 +89,8 @@
             </view>
 
             <view class="contest-info">
-              <block wx:for="{{sport_contest}}" wx:key="item.contest_id">
-                <view class="contest-item" id="{{item.contest_id}}" bindtap="navigateTo">{{item.contest_name}}</view>
+              <block wx:for="{{sportContest}}" wx:key="item.contestId">
+                <view class="contest-item" id="{{item.contestId}}" bindtap="navigateTo">{{item.contestName}}</view>
               </block>
             </view>
           </view>

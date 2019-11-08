@@ -9,9 +9,9 @@
   </view>
 
   <view class="moments-info">
-    <view class="moments-item">动态标题：<input type="text" value="{{moments_title}}" name="moments_title"></input></view>
-    <view class="moments-item">发布者：<input type="text" value="{{moments_publisher}}" name="moments_publisher"></input></view>
-    <view class="moments-item">动态内容：<textarea type="text" style="width: 75%;" value="{{moments_content}}" name="moments_content"></textarea></view>
+    <view class="moments-item">动态标题：<input type="text" value="{{momentsTitle}}" name="momentsTitle"></input></view>
+    <view class="moments-item">发布者：<input type="text" value="{{momentsPublisher}}" name="momentsPublisher"></input></view>
+    <view class="moments-item">动态内容：<textarea type="text" style="width: 75%;" value="{{momentsContent}}" name="momentsContent"></textarea></view>
   </view>
 </form>
   

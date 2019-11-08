@@ -1,0 +1,23 @@
+<view class="reimbursement-record">
+  <form bindsubmit="addRecord">
+    <view class="add-record">
+      <button class="add-btn" form-type="submit">
+        <image src="../resource/images/submit_info.png" style="height:50rpx; width:50rpx;">
+        </image>
+        <view>添加记录</view>
+      </button>
+    </view>
+
+    <view class="reimbursement-info">
+      <view class="reimbursement-item">报销物品：<input type="text" value="{{reimbursementItem}}" name="reimbursementItem"></input></view>
+      <view class="reimbursement-item">报销金额：<input type="text" value="{{reimbursementAmount}}" name="reimbursementAmount"></input></view>
+      <view class="reimbursement-item">报销类型：
+        <picker bindchange="chooseAReimbursementType" value="{{index}}" range="{{type}}">
+          {{type[index]}}
+        </picker>
+      </view>
+      <view class="reimbursement-item">上传附件</view>
+    </view>
+  </form>
+</view>
+

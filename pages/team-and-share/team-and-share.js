@@ -13,14 +13,14 @@ Page({
     username: username,
 
     team: [{
-      team_number: "",
-      team_name: "",
-      team_info: "",
+      teamNumber: "",
+      teamName: "",
+      teamInfo: "",
     }],
     moments: [{
-      moments_id: "",
-      moments_title: "",
-      moments_publisher: "",
+      momentsId: "",
+      momentsTitle: "",
+      momentsPublisher: "",
     }]
   },
   //事件处理函数
@@ -73,12 +73,13 @@ Page({
     })
   },
   teamInfo(e) {
-    var team_number = e.currentTarget.id;
+    var teamNumber = e.currentTarget.id;
     wx.navigateTo({
-      url: '../team-info/team-info?team_number=' + team_number,
+      url: '../team-info/team-info?teamNumber=' + teamNumber,
     })
   },
   moments(e) {
     var moments_id = e.currentTarget.id;
+    
   }
 })
