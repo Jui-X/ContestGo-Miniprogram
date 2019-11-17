@@ -5,7 +5,7 @@ page{
   font-size: 14px;
 }
 .container {
-  background-color: whitesmoke;
+  background-color: #E1F9FD;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,7 +41,7 @@ page{
 .line {
     width: 100%;
     height: 1px;
-    background-color: gainsboro;
+    background-color: white;
     margin-top: 1px;
 }
 .page-container{
@@ -52,7 +52,7 @@ page{
 .page-item{
   display: flex;
   flex-direction: row;
-  background-color: whitesmoke;
+  background-color: #E1F9FD;
   width: 100%;
   margin: 5px 0 5px 0;
   padding: 10px 0 10px 15px;

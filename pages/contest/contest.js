@@ -15,12 +15,11 @@ Page({
     department: department,
     phoneNum: phoneNum,
     email: email,
+    time: "2019-11-12",
     contestInfo: {
       contestId: "",
       contestName: "",
       contestDetail: "",
-      applyDeadline: "",
-      submitDeadline: "",
       contestContact: "",
       emailAddress: "",
       coverImg: "",
@@ -30,6 +29,9 @@ Page({
   onLoad(options) {
     var contestId = options.id;
     var that = this;
+    this.setData({
+      contestId: contestId
+    })
     var serverUrl = app.serverUrl;
     wx.request({
       url: serverUrl + '/contest/getContestDetail?contestId=' + contestId,

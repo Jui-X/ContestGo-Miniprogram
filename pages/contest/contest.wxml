@@ -24,8 +24,7 @@
       <view class="title-font">联系方式</view>
       <view class="highlight-font">联系人：{{contestInfo.contestContact}}</view>
       <view class="highlight-font">邮箱：{{contestInfo.emailAddress}}</view>
-      <view class="highlight-font">报名截止日期：{{contestInfo.applyDeadline}}</view>
-      <view class="highlight-font">材料提交截止日期：{{contestInfo.submitDeadline}}</view>
+      <view class="highlight-font">比赛相关时间节点：{{time}}</view>
     </view>
     <view class="contest-info">
       <view class="title-font">附件下载</view>

@@ -63,5 +63,11 @@ Page({
     wx.navigateTo({
       url: '../contest/contest?id=' + id,
     })
+  },
+  navigate(e) {
+    var id = 1;
+    wx.navigateTo({
+      url: '../contest/contest?id=' + id,
+    })
   }
 })

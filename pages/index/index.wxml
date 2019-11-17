@@ -32,9 +32,9 @@
               </view>
             </swiper-item>
             <swiper-item>
-              <view class="swiper-item" bindtap="navigateTo">
+              <view class="swiper-item" bindtap="navigate">
                 <image src="../resource/images/sc.jpg" style="width:250px; height:150px;border-radius:25px 25px 0 0;" mode="scaleToFill"></image>
-                <view class="contest-title">计算机与软件学院双创中期答辩启动！</view>
+                <view class="contest-title">软件学院创新创业大赛结项答辩启动！</view>
               </view>
             </swiper-item>
             <swiper-item>

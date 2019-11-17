@@ -8,14 +8,14 @@ Page({
     teamInContestId: 0,
     reimbursementItem: "",
     reimbursementAmount: "",
-    reimbursementType: 0,
+    reimbursementType: 1,
     reimbursementAttachment: "",
   },
   //事件处理函数
   onLoad(options) {
     var teamInContestId = options.teamInContestId;
     this.setData({
-      teamInContestId: this.data.teamInContestId
+      teamInContestId: teamInContestId
     })
   },
   chooseAReimbursementType(e) {
@@ -30,14 +30,15 @@ Page({
     var reimbursementAttachment = e.detail.value.reimbursementAttachment;
     var that = this;
     var serverUrl = app.serverUrl;
+    console.log(this.data.reimbursementType)
     wx.request({
       url: serverUrl + '/reimbursement/addReimbursementRecord',
       method: "POST",
       data: {
-        teamInContestId: this.data.teamInContestId,
+        teamInContestId: that.data.teamInContestId,
         reimbursementItem: reimbursementItem,
         reimbursementAmount: reimbursementAmount,
-        reimbursementType: this.data.teamInContestId,
+        reimbursementType: that.data.reimbursementType,
         reimbursementAttachment: reimbursementAttachment,
       },
       success: res => {
@@ -46,11 +47,14 @@ Page({
             title: '已成功添加报销记录!',
             icon: 'success',
             image: '',
-            duration: 3000,
+            duration: 1000,
             mask: true,
             success: function (res) { },
             fail: function (res) { },
             complete: function (res) { },
+          }),
+          wx.navigateTo({
+            url: '../reimbursement-record/reimbursement-record？teamInContestId=' + this.data.teamInContestId,
           })
         }
       }

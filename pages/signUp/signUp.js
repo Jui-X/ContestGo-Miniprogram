@@ -1,10 +1,10 @@
 //获取应用实例
 const app = getApp()
 const username = app.globalData.username;
-const stuId = app.globalData.stu_id;
+const stuId = app.globalData.stuId;
 const school = app.globalData.school;
 const department = app.globalData.department;
-const phoneNum = app.globalData.phone_num;
+const phoneNum = app.globalData.phoneNum;
 const email = app.globalData.email;
 
 Page({
@@ -31,10 +31,20 @@ Page({
       department: department;
       phoneNum: phoneNum;
     }
-    wx.scanCode({
-      success(res) {
-        console.log(res)
-      }
+    // wx.scanCode({
+    //   success(res) {
+    //     console.log(res)
+    //   }
+    // })
+    wx.showToast({
+      title: '已成功报名!',
+      icon: 'success',
+      image: '',
+      duration: 3000,
+      mask: true,
+      success: function (res) { },
+      fail: function (res) { },
+      complete: function (res) { },
     })
   }
 })

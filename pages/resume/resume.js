@@ -1,10 +1,10 @@
 //获取应用实例
 const app = getApp()
 const username = app.globalData.username;
-const stuId = app.globalData.stu_id;
+const stuId = app.globalData.stuId;
 const school = app.globalData.school;
 const department = app.globalData.department;
-const phoneNum = app.globalData.phone_num;
+const phoneNum = app.globalData.phoneNum;
 // const  = app.globalData.;
 
 Page({
@@ -27,9 +27,7 @@ Page({
   },
   sendResume(e) {
     const serverUrl = app.serverUrl;
-    console.log(e.detail.value);
     var resume = e.detail.value.resume;
-    console.log(resume);
     wx.request({
       url: serverUrl + "/team/sendResume",
       method: "POST",
@@ -43,9 +41,18 @@ Page({
         resume: resume,
       },
       success: res => {
-        wx.showToast({
-          title: '发送成功~',
-        })
+        if (res.data.status == "200") {
+          wx.showToast({
+            title: '发送成功~',
+            icon: 'success',
+            image: '',
+            duration: 3000,
+            mask: true,
+            success: function (res) { },
+            fail: function (res) { },
+            complete: function (res) { },
+          })
+        }
       }
     })
   }

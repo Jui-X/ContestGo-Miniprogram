@@ -5,7 +5,7 @@ const stuId = app.globalData.stuId;
 
 Page({
   data: {
-    faceUrl: '',
+    faceUrl: '../resource/images/icon_boy1.png',
     mode: 'scaleToFill',
     username: '橘子',
     stuId: stuId,

@@ -20,7 +20,7 @@
     </view>
     <view class="team-info">
       <view class="title-font">队伍简介</view>
-      <view class="text-font">{{team.teamInfo}}</view>
+      <view class="text-font">成立 4 个月，拥有国汉学院顶尖师生梯队，设计学院 ui 设计大牛，经管保研学霸，线下课覆盖华师、交大、上师大、复旦四校，国际学校校长锁定天使轮投资，已完成产品 Demo 设计，即将布局实际开发，全力冲击国创，就等你来啦！</view>
     </view>
     <view class="team-info">
       <view class="title-font">招募要求</view>
